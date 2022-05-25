@@ -18,6 +18,5 @@ def about():
 def user(name, id):
     return "User page:" + name + " - " + str(id)
 
-
 if __name__ == "__main__":
     app.run(debug=True)
